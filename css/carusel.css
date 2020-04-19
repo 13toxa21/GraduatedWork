@@ -1,0 +1,20 @@
+
+
+.partners ul {
+  height: 130px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.partners ul img {
+  width: 130px;
+  height: 115px;
+  display: block; /* убираем пустое место вокруг картинок */
+}
+
+.partners ul li {
+  display: inline-block; /* убираем пустое место между элементами списка */
+}
