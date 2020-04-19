@@ -1,0 +1,72 @@
+.akcii{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d6cbcb;
+}
+
+.akcii .name_akcii{
+    font-size: 35px;
+    color: #503737;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 50px;
+    margin-top: 0;
+}
+
+.akcii .content_akcii{
+    display: grid;
+    grid-template-columns: 3fr 3fr 0.5fr 3fr 3fr;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.akcii .content_akcii .text_left , .akcii .content_akcii .text_right{
+    background-color: #f4f3eb;
+    height: 314px;
+}
+
+.akcii .content_akcii .text_left p, .akcii .content_akcii .text_right p, .akcii .content_akcii .red_text{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: #503737; 
+}
+
+.akcii .content_akcii img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.akcii .akcii_podpiska{
+padding-top: 30px;
+padding-bottom: 50px;
+text-align: center;
+font-size: 16px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.akcii .akcii_podpiska a{
+    color: #503737; 
+}
+
+.akcii .content_akcii .text_left .red_text, .akcii .content_akcii .text_right .red_text{
+    font-size: 16px;
+    color: #d8424b;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.akcii .content_akcii .text_right .red_text{
+    padding-top: 9px;
+}
+
+.akcii .breadcrumbs{
+    display: none;
+}
+
