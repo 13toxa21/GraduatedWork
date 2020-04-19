@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальный арсенал</title>
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/akcii.css">
+
+
+</head>
+<body>
+
+    <div class="wraper" id="wraper">
+        <header class="head" id="head">
+
+            <div class="hed1"> 
+              <select name="lenguage" id="lenguage" onchange="getLeng()">
+                <option value="ru">RU</option>
+                <option value="eng">EN</option>
+              </select>             
+              <p>
+                <span class="adress" id="adress"><i class="fas fa-home"></i> г. Минск, ул.Мележа, д. 1</span>
+                <span class="phone"><i class="fas fa-phone-alt"></i> +375 29 306 13 05</span>
+                <span class="buy" id="buy"><i class="fab fa-cc-visa"></i> Как купить</span>
+                <span class="guarant" id="guarant"><i class="fas fa-thumbs-up"></i> Гарантия</span>
+                <span class="delivery" id="delivery"><i class="fas fa-truck"></i> Доставка</span>
+                <a href="https://vk.com/" class="socseti"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/" class="socseti"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=ru" class="socseti"><i class="fab fa-twitter"></i></a>
+            </p>
+        
+        </div>
+            
+            <div class="hed2">
+                <div class="logo" id="logo">
+                    <h1 id="title">Музыкальный арсенал</h1>
+                    <p id="title2">Мы работаем на Ваш талант!</p>
+                </div>
+                <div class="poisk">
+                    <input type="text" placeholder="Поиск по сайту" autofocus class="inp1" id="inp1" value=""><i id="lupa" class="fas fa-search"></i>
+                      <ul class="elastic" id="elastic">
+                        <li onclick="opnAkc()">акции</li>
+                        <li onclick="openCat()">каталог</li>
+                        <li onclick="openContanct()">о компании</li>
+                        <li onclick="opnAbout()">информация</li>
+                      </ul>
+                </div>
+                <div class="korzina">
+                    <a href="#" class="korz_btn" id="korz_btn"><i class="fas fa-shopping-cart"></i> Корзина <span class="catalog_counter"></span></a>
+                </div>
+
+            </div>
+
+            <div class="hed3">
+                <div class="menu">
+                    <ul class="munu_cont">
+                        <li class="li1" id="akc_btn"><a href="#">Акции</a></li>
+                        <li id="catalog"><a href="#">Каталог продукции</a></li>
+                        <li><a href="#info" id="about">О компании</a></li>
+                        <li id="partners"><a href="https://www.onliner.by/">Наши партнеры</a></li>
+                        <li><a href="#" id="li_contact">Контакты</a></li>
+                    </ul>
+                  
+                </div>
+
+            </div>
+        </header>
+
+        <div class="container1" id="container1">
+          <div class="bg">
+            <img src="./images/start1.png">
+        </div>
+        <div class="bg">
+          <img src="./images/start2.png">
+      </div>
+        </div>
+
+        <div id="carousel" class="carousel">
+          <a class="arrow prev">&#10094</a>
+          <div class="gallery">
+            <ul class="images">
+              <li><img src="./images/d'addario.png"></li>
+              <li><img src="./images/aria.png"></li>
+              <li><img src="./images/ABK.png"></li>
+              <li><img src="./images/jts.png"></li>
+              <li><img src="./images/pioneer.png"></li>
+              <li><img src="./images/Robe.png"></li>
+              <li><img src="./images/schecter.png"></li>
+            </ul>
+          </div>
+          <a class="arrow next">&#10095</a>
+          <a href="#" class="all_proizv" id="all_proizv">ВСЕ ПРОИЗВОДИТЕЛИ</a>
+        </div>
+
+        <div class="container2" id="container2">
+          <div class="breadcrumbs" id="inf_road">
+            <a href="./index1.html">Главная</a>
+            <a class="active" href="#">О компании</a>
+        </div>
+          <div class="info" id="info" style="height: 450px;">
+            <h2 id="onas">О КОМПАНИИ</h2>
+            <p>Компания <span>«Музыкальный Арсенал»</span> работает на рынке музыкальных инструментов и профессионального оборудования с 1993 года.</p>
+            <p>Профиль деятельности:<br>
+              – музыкальные инструменты (рояли и пианино, струнно-смычковые, духовые, ударные и перкуссионные, гитары);<br>
+              – профессиональное звуковое и звукоусилительное оборудование;<br>
+              – световое оборудование;<br>
+              – специализированные эффекты для театров, студий и концертных площадок;<br>
+              – театральные и аудиторные кресла;<br>
+              – трансляционные системы;<br>
+              – механика и одежда сцены;<br>
+              – экраны и светодиодные панели;<br>
+              – кинотехнологическое оборудование.<br>
+              </p>
+              <p>Компания имеет дистрибьюторские центры в Тюмени и  Москве, сеть магазинов «Музыкальный Арсенал» в крупных городах России, в числе которых крупные исторические и культурные центры страны – Москва, Екатеринбург, Уфа и др., а также обширную дилерскую сеть, насчитывающую более 150 представительств.<br>
+                «Музыкальный Арсенал» ведет активную внешнеэкономическую деятельность, является дистрибьютором около 100 торговых брендов (в том числе более 40 эксклюзивно на территории России). В числе представляемых в России торговых марок: Adams, Mapex, Jupiter, Majestic, Hercules, Howarth, Behringer и другие.
+              </p>
+              <p>
+                <span>Комплекс предлагаемых услуг включает:</span><br>
+1. Консультации в подготовке технического задания заказчика (обзор всего рынка производителей и ценообразование);<br>
+2. Экспертную оценку спецификаций на соответствие техническому заданию (эквивалентность предлагаемого оборудования);<br>
+3. Поставку всего спектра музыкальных инструментов, в том числе эксклюзивных, комплексное оснащение народных, филармонических, эстрадно-симфонических и духовых оркестров;<br> 
+4. Проектирование, поставку, монтаж и пусконаладочные работы;<br>
+5. Обучение технических специалистов эксплуатирующих организаций.<br>
+              </p>
+              <p>Компания предоставляет полный спектр услуг по поставке и монтажу звукового и светового оборудования для залов учебных заведений любого уровня. В «Музыкальном Арсенале” огромный выбор оборудования для разработки оригинальных проектов, соответствующих техническим параметрам помещения и пожеланию заказчика. Кроме того, мы можем предложить варианты типовых звуковых решений.</p>
+              <P>Оборудование и услуги, предлагаемые компанией «Музыкальный Арсенал», сопровождаются полным пакетом необходимых сертификатов и лицензий.</P>
+              <p>Сотрудничая с нами, Вы приобретаете надежного делового партнера, а предложенные профессиональные решения будут самыми оптимальными!</p>
+            </div>
+            <a class="show-hide" id="show-hide">читать дальше...>></a>
+
+        </div>
+
+        <div class="akcii" id="akcii">
+          <div class="breadcrumbs" id="akc_road">
+            <a href="./index1.html">Главная</a>
+            <a class="active" href="#">Акции</a>
+        </div>
+          <h4 class="name_akcii" id="name_akcii">Акции</h4>
+          <div class="content_akcii">
+          <div class="left_akc">
+              <img src="./images/akc1.png" alt="one picture">
+          </div>
+                 
+              
+              <div class="text_left">
+                  <p class="red_text">Рассрочка без переплаты!</p>
+                      <p>В магазинах Музыкальный Арсенал до конца 2020 года Вы можете приобрести любой товар в рассрочку на 6 месяцев. 0% ПЕРЕПЛАТЫ! Первоначальный взнос 10%!</p>
+                      <p class="timer" id="timer"></p>
+              </div>
+              <div></div>
+              <div class="right_akc">
+                  <img src="./images/akc2.png" alt="two picture">
+              </div>
+              <div class="text_right">
+                  <p class="red_text">Арсеналу 5 лет!</p>
+                  <p>В магазинах Музыкальный Арсенал до конца 2020 года Вы можете приобрести любой товар в рассрочку на 6 месяцев. 0% ПЕРЕПЛАТЫ! Первоначальный взнос 10%!</p>
+                  <p class="timer" id="timer2"></p>
+              </div>
+          </div>
+          <div class="akcii_podpiska" id="akcii_podpiska">
+              <a href="#">ПОДПИСАТЬСЯ НА АКЦИИ</a>
+          </div>
+      </div>
+    
+
+
+          <div class="catalog" id="catalog_cont">
+            <div class="breadcrumbs">
+            <a href="./index1.html">Главная</a>
+            <a class="active" href="#">Каталог продукции</a>
+        </div>
+            <h2>Каталог продукции</h2>
+            <div class="container_products">
+            </div>
+          </div>
+
+          <div class="madal" id="madal">
+            
+          </div>
+
+          <div class="container_cart">
+
+          </div>
+
+
+          <div class="contacts" id="contacts">
+            <div class="breadcrumbs">
+                <a href="./index1.html">Главная</a>
+                <a class="active" href="#">Контакты</a>
+            </div>
+            <div class="contact_info">
+              <h4>Контактная информация:</h4>
+              <p class="adress">город Минск, улица Мележа, дом 1</p>
+              <p class="time">Мы работаем с  10.00 до 19.00 ежедневно</p>
+              <p class="phone">Телефон: + 375 29 306 13 05</p>
+              <p class="email"></p>
+            </div>
+            <div class="map">
+              <h4>Мы на карте:</h4>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905.508724170136!2d27.601455257052226!3d53.938876930794606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf1521f045c3%3A0x9c1fc5a8f95902aa!2z0KXQvtCx0LHQuCDQn9GA0L4!5e0!3m2!1sru!2sby!4v1586455827752!5m2!1sru!2sby" width="1000" height="650" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            
+          </div>
+
+          <footer id="footer">
+            <div class="center">
+              <div class="footer_one">
+                <p class="adress">&copy; 2020 Музыкальный арсенал</p>
+                <p><a href="#">Правила пользования сайтом</a></p>
+                <p>
+                  <a href="#">Разработка сайта</a>
+                  <span> - 13toxa21.by</span>
+                </p>
+                <p>
+                  <a href="#">Дизайн сайта</a>
+                  <span> - yureiw.ru</span>
+                </p>
+              </div>
+              <div class="footer_two">
+                <p class="adress">Магазин в Минске</p>
+                <p>город Минск, улица Мележа, дом 1</p>
+                <p>+375 29 306-13-05</p>
+                <p>Ежедневно с 10.00 до 19.00</p>
+                <p>Соцсети: <a href="https://vk.com/"><i class="fab fa-vk"></i></a>
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                  <a href="https://twitter.com/?lang=ru"><i class="fab fa-twitter"></i></a>
+                </p>
+              </div>
+  
+              <div class="footer_three">
+                <div>
+                  <a href="#">О компании</a>
+                  <a href="#">Наша история</a>
+                  <a href="#">Благодарности</a>
+                  <a href="#">Партнерам</a>
+                  <a href="#">Магазины</a>
+                  <a href="#">Контакты</a>
+                </div>
+                <div>
+                  <a href="#">Эндорсеры</a>
+                  <a href="#">Коллектив</a>
+                  <a href="#">Вакансии</a>
+                  <a href="#">Новости</a>
+                  <a href="#">Обзоры</a>
+                </div>
+                <div>
+                  <a href="#">Акции</a>
+                  <a href="#">Распродажи</a>
+                  <a href="#">Товары</a>
+                  <a href="#">Услуги</a>
+                  <a href="#">Производители</a>
+                </div>
+                
+              </div>
+            </div>
+          </footer>
+
+    </wraper>
+    <script src="./js/all1.js"></script>
+    <script src="./js/select.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/createOneProduct.js"></script>
+    <script src="./js/store.js"></script>
+    <script src="./js/catalog.js"></script>
+    <script src="./js/carus.js"></script>
+    <script src="./js/akciijs.js"></script>
+    <script src="./js/sorch.js"></script>
+    <script src="./js/cart.js"></script>
+
+</body>
+</html>
